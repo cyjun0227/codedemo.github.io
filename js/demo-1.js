@@ -153,7 +153,7 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
-            ctx.strokeStyle = 'rgba(0, 0, 255, '+ p.active+')';
+            ctx.strokeStyle = 'rgba(135, 206, 250, '+ p.active+')';
             ctx.stroke();
         }
     }
@@ -165,7 +165,7 @@
         (function() {
             _this.pos = pos || null;
             _this.radius = rad || null;
-            _this.color = color || 'rgba(0, 0, 255, 0.3)';
+            _this.color = color || 'rgba(135, 206, 250, 0.3)';
         })();
 
         this.draw = function() {
